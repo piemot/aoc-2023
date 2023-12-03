@@ -1,5 +1,5 @@
-use std::io::BufRead;
-use std::{fs::File, io::BufReader};
+use std::fs::File;
+use std::io::{BufRead, BufReader};
 
 #[allow(dead_code)]
 fn first() -> std::io::Result<()> {
@@ -87,5 +87,5 @@ fn second() -> std::io::Result<()> {
 }
 
 fn main() -> std::io::Result<()> {
-    second()
+    first()
 }
